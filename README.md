@@ -12,11 +12,17 @@ tmux kill-server
 ```
 
 ## conda
+### 安装
 有时需要sudo,否则无法运行,注意目录放用户下  
 ```
 bash xxx.sh
 ```
-根据yaml创建  
+然后在`.bashrc`中  
+```
+export PATH="/home/username/miniconda/bin:$PATH"
+```
+### 环境创建与可能问题
+根据yaml创建环境  
 ```
 conda env create -f xxx.yaml
 ```
