@@ -2,8 +2,8 @@
 
 ## tmux
 ```
-ln -s -f .tmux/.tmux.conf  
-cp .tmux/.tmux.conf.local .    
+ln -s -f  env_conf/.tmux.conf  
+cp env_conf/.tmux.conf.local .    
 ```
 
 restart tmux server by  
