@@ -5,8 +5,11 @@
 ln -s -f  env_conf/.tmux.conf  
 cp env_conf/.tmux.conf.local .    
 ```
-
-restart tmux server by  
+reload tmux conf by 
+```
+tmux source-file ~/.tmux.conf
+```
+If it doesn't work, restart tmux server by  
 ```
 tmux kill-server  
 ```
